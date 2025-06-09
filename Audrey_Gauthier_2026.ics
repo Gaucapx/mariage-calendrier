@@ -1,26 +1,30 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Gaucapx//Calendrier Mariage//FR
+PRODID:-//Gaucapx//MariageAudreyGauthier//FR
 NAME:Mariage de Audrey & Gauthier
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-WR-CALNAME:Mariage de Audrey & Gauthier 💒 🎉
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
+DTSTAMP:20250607T143000Z
+UID:mariage-audrey-gauthier-20260822@gaucapx.fr
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
 SUMMARY:Mariage de Audrey & Gauthier 💒 🎉
 LOCATION:Encore tenu secret… 🔒 mais réservez la journée !
 DESCRIPTION:Audrey & Gauthier s’uniront entourés de leurs proches.\nPlus d’infos à venir… mais gardez bien cette date 📅✨
-URL: À découvrir prochainement 🛠
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Mariage de Audrey & Gauthier 💒 🎉
+DESCRIPTION:Mariage de Audrey & Gauthier dans 10 semaines 💒 🎉
 TRIGGER:-P10W
 END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dernier rappel : Mariage de Audrey & Gauthier dans une semaine ! 💒 🎉
+TRIGGER:-P1W
+END:VALARM
 END:VEVENT
-END:VEVENT
-
 END:VCALENDAR
